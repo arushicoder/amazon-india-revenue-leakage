@@ -1,0 +1,59 @@
+
+# ==============================
+# PYTHON ENVIRONMENT
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# ==============================
+# JUPYTER NOTEBOOKS
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# RAW DATA
+# ==============================
+data/raw/*
+!data/raw/.gitkeep
+
+# PROCESSED DATA
+data/processed/*
+!data/processed/.gitkeep
+
+# Dataset archives
+*.zip
+
+# ==============================
+# DATABASE
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
+# MACHINE LEARNING MODELS
+# ==============================
+models/*
+!models/.gitkeep
+
+# ==============================
+# ENVIRONMENT VARIABLES
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# TEMPORARY FILES
+# ==============================
+*.log
+.DS_Store
+Thumbs.db
+
+# ==============================
+# STREAMLIT SECRETS
+# ==============================
+.streamlit/secrets.toml
