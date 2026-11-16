@@ -276,4 +276,42 @@ pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
+<<<<<<< HEAD
 *The dashboard command
+=======
+*The dashboard command will be available once the application is implemented.*
+
+---
+
+## 📌 Project Limitations
+
+- The available historical sales data covers a limited period.
+- Missing and inconsistent records require careful treatment.
+- Transfer price is a cost proxy, not verified actual cost.
+- Forecast reliability is limited by the short historical period.
+- Observed revenue leakage must not automatically be interpreted as recoverable cash.
+
+---
+
+## 👩‍💻 Author
+
+**Arushi**
+
+Data Analytics | Python | SQL | Machine Learning | Business Intelligence
+
+- GitHub: https://github.com/arushicoder
+
+---
+
+<p align="center">
+  <strong>Turning E-Commerce Data into Actionable Business Intelligence.</strong>
+</p>
+
+<p align="center">
+  ⭐ If you find this project interesting, consider starring the repository!
+</p>
+
+---
+
+*Developed as part of the NYCTA Data Analytics Program.*
+>>>>>>> 38c5241 (docs: organize project configuration and documentation)
